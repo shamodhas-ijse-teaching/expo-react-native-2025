@@ -41,12 +41,18 @@ npm -v</code></pre>
     <pre><code>npx expo start</code></pre>
   </li>
   <li>Expo Dev Tools will open in browser</li>
-  <li>Terminal will display a QR code</li>
+  <li>Terminal will display a QR code:</li>
 </ul>
+<p align="center">
+  <img src="screenshots/qr-code.png" alt="Expo QR Code" width="300"/>
+</p>
 
 <h3>4. Run the App on a Device</h3>
 <ul>
   <li>Install <strong>Expo Go</strong> on Android or iOS</li>
+  <p align="center">
+    <img src="screenshots/expo-go.png" alt="Expo Go App" width="300"/>
+  </p>
   <li>Scan QR code from terminal/Expo Dev Tools</li>
   <li>The app opens instantly on your device</li>
 </ul>
