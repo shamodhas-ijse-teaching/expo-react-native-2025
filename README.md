@@ -1,71 +1,62 @@
-<project>
-  <title>Create Your First Expo App (Using npx create-expo-app@latest)</title>
-  <description>A fully updated step-by-step guide for creating your first React Native app with Expo, following the latest Expo documentation (2025).</description>
+<h1>Create Your First Expo App (Using npx create-expo-app@latest)</h1>
 
-  <tags>
-    <tag>React Native</tag>
-    <tag>Expo</tag>
-    <tag>Mobile App</tag>
-    <tag>Cross-Platform</tag>
-    <tag>JavaScript</tag>
-    <tag>Beginner</tag>
-    <tag>Tutorial</tag>
-  </tags>
+<p>A fully updated step-by-step guide for creating your first React Native app with Expo, following the latest Expo documentation (2025).</p>
 
-  <step id="1">
-    <title>Install Node.js</title>
-    <instructions>
-      <item>Download and install Node.js from <link>https://nodejs.org</link></item>
-      <item>Verify installation in terminal/cmd:
-        <code>
-node -v
-npm -v
-        </code>
-      </item>
-    </instructions>
-  </step>
+<h2>Tags</h2>
+<ul>
+  <li>React Native</li>
+  <li>Expo</li>
+  <li>Mobile App</li>
+  <li>Cross-Platform</li>
+  <li>JavaScript</li>
+  <li>Beginner</li>
+  <li>Tutorial</li>
+</ul>
 
-  <step id="2">
-    <title>Create a New Expo Project</title>
-    <instructions>
-      <item>Open terminal and run:
-        <code>npx create-expo-app MyFirstApp</code>
-      </item>
-      <item>Select <strong>"blank"</strong> template when prompted</item>
-      <item>Navigate into project folder:
-        <code>cd MyFirstApp</code>
-      </item>
-    </instructions>
-  </step>
+<h2>Steps</h2>
 
-  <step id="3">
-    <title>Start the Development Server</title>
-    <instructions>
-      <item>Run:
-        <code>npx expo start</code>
-      </item>
-      <item>Expo Dev Tools will open in browser</item>
-      <item>Terminal will display a QR code</item>
-    </instructions>
-  </step>
+<h3>1. Install Node.js</h3>
+<ul>
+  <li>Download and install Node.js from <a href="https://nodejs.org">https://nodejs.org</a></li>
+  <li>Verify installation in terminal/cmd:
+    <pre><code>node -v
+npm -v</code></pre>
+  </li>
+</ul>
 
-  <step id="4">
-    <title>Run the App on a Device</title>
-    <instructions>
-      <item>Install <strong>Expo Go</strong> on Android or iOS</item>
-      <item>Scan QR code from terminal/Expo Dev Tools</item>
-      <item>The app opens instantly on your device</item>
-      <tip>Press <code>a</code> for Android emulator or <code>i</code> for iOS simulator if available</tip>
-    </instructions>
-  </step>
+<h3>2. Create a New Expo Project</h3>
+<ul>
+  <li>Open terminal and run:
+    <pre><code>npx create-expo-app MyFirstApp</code></pre>
+  </li>
+  <li>Select <strong>"blank"</strong> template when prompted</li>
+  <li>Navigate into project folder:
+    <pre><code>cd MyFirstApp</code></pre>
+  </li>
+</ul>
 
-  <step id="5">
-    <title>Edit Your App</title>
-    <instructions>
-      <item>Open <code>App.js</code> in VS Code or any editor</item>
-      <item>Example code:
-<code>
-import { Text, View } from 'react-native';
+<h3>3. Start the Development Server</h3>
+<ul>
+  <li>Run:
+    <pre><code>npx expo start</code></pre>
+  </li>
+  <li>Expo Dev Tools will open in browser</li>
+  <li>Terminal will display a QR code</li>
+</ul>
+
+<h3>4. Run the App on a Device</h3>
+<ul>
+  <li>Install <strong>Expo Go</strong> on Android or iOS</li>
+  <li>Scan QR code from terminal/Expo Dev Tools</li>
+  <li>The app opens instantly on your device</li>
+</ul>
+<p><em>Tip:</em> Press <code>a</code> for Android emulator or <code>i</code> for iOS simulator if available</p>
+
+<h3>5. Edit Your App</h3>
+<ul>
+  <li>Open <code>App.js</code> in VS Code or any editor</li>
+  <li>Example code:
+    <pre><code>import { Text, View } from 'react-native';
 
 export default function App() {
   return (
@@ -73,32 +64,21 @@ export default function App() {
       &lt;Text&gt;Hello, First Expo App!&lt;/Text&gt;
     &lt;/View&gt;
   );
-}
-</code>
-      </item>
-      <item>Save → App reloads automatically (hot reload/live refresh)</item>
-    </instructions>
-  </step>
+}</code></pre>
+  </li>
+  <li>Save → App reloads automatically (hot reload/live refresh)</li>
+</ul>
 
-  <step id="6">
-    <title>Optional – Build or Publish</title>
-    <instructions>
-      <item>Build APK / IPA:
-<code>
-npx expo build:android
-npx expo build:ios
-</code>
-      </item>
-      <item>Publish instantly:
-<code>
-npx expo publish
-</code>
-      </item>
-    </instructions>
-  </step>
+<h3>6. Optional – Build or Publish</h3>
+<ul>
+  <li>Build APK / IPA:
+    <pre><code>npx expo build:android
+npx expo build:ios</code></pre>
+  </li>
+  <li>Publish instantly:
+    <pre><code>npx expo publish</code></pre>
+  </li>
+</ul>
 
-  <result>
-    ✅ Your first React Native app is running on a real device or simulator, ready for further development.
-  </result>
-
-</project>
+<h2>Result</h2>
+<p>✅ Your first React Native app is running on a real device or simulator, ready for further development.</p>
